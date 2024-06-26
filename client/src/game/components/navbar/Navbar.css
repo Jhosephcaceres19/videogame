@@ -1,0 +1,33 @@
+.nav-main {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #ffbc00;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(50px);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  justify-content: space-around;
+}
+
+.input-nav {
+  display: flex;
+  gap: 10px;
+}
+input{
+  border-radius: 15px;
+  font-size: larger;
+  padding-left: 8px;
+}
+.text-nav{
+  display: flex;
+  font-size: xx-large;
+  align-items: center;
+  text-decoration: none;
+  color: #ffbc00;
+}
+

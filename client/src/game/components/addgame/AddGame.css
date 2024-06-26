@@ -1,0 +1,63 @@
+
+.cont-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  margin-top: 3%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 20%;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: yellow;
+  border-radius: 8px;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+.input-game, .text-area-game {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  width: auto;
+  padding: 0.5rem 2rem;
+  background-color: rgba(0,0,0,4);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}

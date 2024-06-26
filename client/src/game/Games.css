@@ -1,0 +1,33 @@
+.content-home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre los elementos */
+  justify-content: center;
+}
+
+.game-card {
+  border: 2px solid rgb(0,0, 0, 4); 
+  width: calc(33.333% - 40px); 
+  box-sizing: border-box; 
+  background-color: #dff800; 
+  color: rgb(2, 2, 2); 
+  text-align: center;
+  padding-bottom: 2px;
+  border-radius: 20px;
+}
+
+.game-card img {
+  width: 100%;
+  height:75%;
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.game-card h2 {
+  margin: 10px 0;
+}
+
+.game-card p {
+  margin: 5px 0;
+}

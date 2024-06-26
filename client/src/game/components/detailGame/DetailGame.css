@@ -1,0 +1,55 @@
+/* DetailGame.css */
+
+.detail-game-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-game-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.detail-game-container h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #ffffff;
+  
+}
+
+.detail-game-container p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.detail-game-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.detail-game-container .description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.detail-game-container .genres, .detail-game-container .platforms {
+  font-weight: bold;
+}
+
+.detail-game-container .release-date {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ffffff;
+}

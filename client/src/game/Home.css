@@ -1,0 +1,45 @@
+.home-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.content-home {
+  color: aqua;
+  padding: 2px;
+}
+.pagination{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+.error-message{
+  margin-top: 5%;
+  color: yellow;
+}
+.filters {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+.filters select {
+  margin-right: 20px;
+  padding: 5px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+.button-search{
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 7px;
+}
+.cont-home{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+}
