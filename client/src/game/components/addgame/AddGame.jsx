@@ -230,8 +230,10 @@ const AddGame = () => {
               className="input-game"
             >
               <option value="">Seleccione un género</option>
+
               {genres.map(genre => (
-                <option key={genre.id} value={genre.name}>{genre.name}</option>
+                
+                <option key={genre.id} value={genre.name}></option>
               ))}
             </select>
             {errors.genres && <p className="error">{errors.genres}</p>}

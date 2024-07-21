@@ -43,3 +43,13 @@
   justify-content: space-between;
   margin-right: 60px;
 }
+label{
+  color: white;
+  display: flex;
+  align-items: center;
+}
+span{
+  color: white;
+  display: flex;
+  align-items: center;
+}
